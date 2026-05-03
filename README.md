@@ -20,7 +20,15 @@ Each requires different code, different schemas, different boilerplate. `agent-s
 ## Install
 
 ```bash
-npm install -g pickaxe-scaffold
+# Use directly with npx (no install needed)
+npx github:HOTAgithub/agent-scaffold init my-agent
+```
+
+Or clone:
+```bash
+git clone https://github.com/HOTAgithub/agent-scaffold.git
+cd agent-scaffold && npm install
+node src/cli.js init my-agent
 ```
 
 ## Quick Start
