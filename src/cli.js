@@ -10,8 +10,8 @@ const { generateAgentJson } = require('./generators/agent-json');
 const program = new Command();
 
 program
-  .name('agent-scaffold')
-  .description('Generate MCP server + A2A agent + agent.json from one spec')
+  .name('pickaxe-scaffold')
+  .description('Generate MCP Server + A2A Agent + agent.json from one config. By Pickaxe Tools.')
   .version('0.1.0');
 
 program

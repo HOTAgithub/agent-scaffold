@@ -1,10 +1,10 @@
 {
-  "name": "@pickaxe/agent-scaffold",
+  "name": "pickaxe-scaffold",
   "version": "0.1.0",
-  "description": "Generate MCP server + A2A agent + agent.json from one spec. Multi-protocol agent scaffolding CLI.",
-  "main": "src/index.js",
+  "description": "Generate MCP Server + A2A Agent + agent.json from one config. Multi-protocol AI agent scaffolding CLI by Pickaxe Tools.",
+  "main": "src/cli.js",
   "bin": {
-    "agent-scaffold": "./src/cli.js"
+    "pickaxe-scaffold": "./src/cli.js"
   },
   "scripts": {
     "start": "node src/cli.js",
@@ -18,14 +18,33 @@
     "agent-json",
     "scaffold",
     "cli",
-    "multi-protocol"
+    "multi-protocol",
+    "model-context-protocol",
+    "agent-to-agent",
+    "boilerplate",
+    "code-generator",
+    "pickaxe"
   ],
   "author": "Pickaxe Tools",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HOTAgithub/agent-scaffold.git"
+  },
+  "homepage": "https://github.com/HOTAgithub/agent-scaffold#readme",
+  "bugs": {
+    "url": "https://github.com/HOTAgithub/agent-scaffold/issues"
+  },
+  "files": [
+    "src/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
-    "chalk": "^5.3.0",
     "commander": "^12.1.0",
-    "ejs": "^3.1.10",
-    "inquirer": "^9.2.0"
+    "ejs": "^3.1.10"
   }
 }

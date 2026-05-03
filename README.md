@@ -1,8 +1,12 @@
-# @pickaxe/agent-scaffold
+# pickaxe-scaffold
 
-**Generate MCP Server + A2A Agent + agent.json from one spec.**
+**Generate MCP Server + A2A Agent + agent.json from one config.**
 
 One config → three protocols. Stop writing boilerplate for every agent protocol.
+
+```bash
+npx pickaxe-scaffold init my-agent
+```
 
 ## Why?
 
@@ -16,7 +20,7 @@ Each requires different code, different schemas, different boilerplate. `agent-s
 ## Install
 
 ```bash
-npm install -g @pickaxe/agent-scaffold
+npm install -g pickaxe-scaffold
 ```
 
 ## Quick Start
