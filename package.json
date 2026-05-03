@@ -1,0 +1,31 @@
+{
+  "name": "@pickaxe/agent-scaffold",
+  "version": "0.1.0",
+  "description": "Generate MCP server + A2A agent + agent.json from one spec. Multi-protocol agent scaffolding CLI.",
+  "main": "src/index.js",
+  "bin": {
+    "agent-scaffold": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "dev": "node src/cli.js",
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "agent",
+    "mcp",
+    "a2a",
+    "agent-json",
+    "scaffold",
+    "cli",
+    "multi-protocol"
+  ],
+  "author": "Pickaxe Tools",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "ejs": "^3.1.10",
+    "inquirer": "^9.2.0"
+  }
+}
